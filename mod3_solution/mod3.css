@@ -1,0 +1,109 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  background-color: lightgrey;
+  border-radius: 0;
+  border: 0;
+
+  border-bottom: 2px solid gray;
+}
+#header-nav .container{
+  margin-left: 15px;
+}
+.navbar-brand {
+  padding-top: 20px;
+  height: 100%;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: grey;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-toggle {
+    top: 15px;
+}
+.disches-description{
+  margin-bottom: 30px;
+  height: 300px;
+  background-color: lightgrey;
+  padding: 10px 15px 1px 25px;
+  color: #2E2E2E;
+  overflow-y:auto;
+}
+.disches-description .disch-title{
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#nav-list li{
+  text-align: center;
+  font-size: 1.1em;
+  border-bottom: 2px solid grey;
+  background-color: white;
+}
+#chicken_option{
+  border-top: 2px solid grey;
+}
+div h2{
+  color: #424242;
+  text-shadow: 1px 1px 1px lightgrey;
+  margin-bottom: 28px;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .navbar-brand h1 { /* Restaurant name */
+    font-size: 2.5em;
+  }
+  #header-nav .container{
+  margin-left: 4.0em;
+  }
+  div h2{
+  font-size: 2.5em;
+}
+.disches-description{
+  font-size: 1.2em;
+}
+.disches-description .disch-title{
+  font-size: 1.4em;
+}
+.back_to_top a:hover,{
+
+}
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand h1 { /* Restaurant name */
+    font-size: 2.0em;
+    }
+    #header-nav .container{
+    margin-left: 2.0em;
+    }
+      div h2{
+  font-size: 2.0em;
+}
+.disches-description{
+  font-size: 1.1em;
+}
+.disches-description .disch-title{
+  font-size: 1.3em;
+}
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+ }
